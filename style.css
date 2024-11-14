@@ -37,3 +37,19 @@ body {
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
+  .social-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links a {
+    color: #FFF;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* LinkedIn Blue */
+}
