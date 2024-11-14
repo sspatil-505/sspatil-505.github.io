@@ -3,6 +3,23 @@ body {
     line-height: 1.8;
     color: #f5f6f7;
   }
+  .social-links {
+    text-align: center;
+    padding: 50px;
+}
+
+.social-links a {
+    color: #FFF;
+    font-size: 50px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* LinkedIn Blue */
+}
+
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
@@ -37,19 +54,4 @@ body {
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
-  .social-links {
-    text-align: center;
-    padding: 20px;
-}
-
-.social-links a {
-    color: #FFF;
-    font-size: 24px;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: #0077b5; /* LinkedIn Blue */
-}
+ 
