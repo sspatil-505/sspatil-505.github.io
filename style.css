@@ -905,6 +905,35 @@ h6 {
   line-height: 1.6;
 }
 
+/* ===================================
+   Current Reading Section
+   =================================== */
+.current-reading-section {
+  padding: 40px 20px;
+  background: var(--background-dark);
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.current-reading-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
+
+.current-read-note {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-dark);
+  line-height: 1.6;
+}
+
 .quote-attribution {
   display: flex;
   justify-content: center;

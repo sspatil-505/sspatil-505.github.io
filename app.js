@@ -40,10 +40,10 @@ function updateStats() {
     const reading = readBooks.filter(series => series.status === 'reading').reduce((sum, series) => sum + series.bookCount, 0);
     const toRead = readBooks.filter(series => series.status === 'to-read').reduce((sum, series) => sum + series.bookCount, 0);
 
-    document.getElementById('totalBooks').textContent = totalBooksRead;
+    document.getElementById('totalBooks').textContent = totalBooksRead + 3; // +3 for Zero to One, Death on the Nile, Jaave Tyancha Desha (hardcoded in HTML)
     document.getElementById('booksWritten').textContent = totalBooksWritten;
     document.getElementById('completedBooks').textContent = completed;
-    document.getElementById('readingBooks').textContent = reading;
+    document.getElementById('readingBooks').textContent = reading + 3; // +3 for Zero to One, Death on the Nile, Jaave Tyancha Desha (hardcoded in HTML)
     document.getElementById('toReadBooks').textContent = toRead;
 }
 

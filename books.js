@@ -74,6 +74,34 @@ const booksData = [
         ],
         notes: "This 'book' of my life is full of adventures big and small. Chapters include getting lost in my city at the age of five and discovering the world with wide-eyed curiosity, navigating the challenges and isolation of the Covid years, and an internship that changed my perspective, teaching me lessons I couldn't have imagined. Each day is a new page, and I'm both the author and the protagonist of this ongoing story. The title reminds me that life could have taken a different turn, but this is MY story - with all its unexpected plot twists, character development, and moments of growth. The best part? I get to keep writing it.",
         coverUrl: "assets/soumya_life_cover.jpg"
+    },
+    {
+        id: 5,
+        type: "read",
+        title: "Turtles All the Way Down",
+        author: "John Green",
+        genre: "Young Adult",
+        status: "completed",
+        bookCount: 1,
+        books: [
+            "Turtles All the Way Down (2017)"
+        ],
+        notes: "A brilliant book for anybody to learn so much about different types and scales of OCD.",
+        coverUrl: "https://covers.openlibrary.org/b/isbn/9780525555360-L.jpg"
+    },
+    {
+        id: 6,
+        type: "read",
+        title: "Paper Towns",
+        author: "John Green",
+        genre: "Young Adult",
+        status: "completed",
+        bookCount: 1,
+        books: [
+            "Paper Towns (2008)"
+        ],
+        notes: "Interesting read. Really weirded out by what a person can do for just a crush. Never know if I can ever do such things for anybody.",
+        coverUrl: "https://covers.openlibrary.org/b/isbn/9780142414934-L.jpg"
     }
 ];
 
@@ -87,6 +115,9 @@ const statusConfig = {
 // Genre list for filtering
 const genres = [
     'All Genres',
+    'Young Adult',
+    'Business',
+    'Travelogue',
     'Fantasy',
     'Mystery',
     'Children\'s Adventure',
